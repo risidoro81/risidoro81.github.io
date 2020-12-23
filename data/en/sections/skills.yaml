@@ -1,0 +1,39 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Network administration
+  icon: "/images/sections/skills/network.jpeg"
+  summary: "Configuring and troubleshooting Cisco switches (Cisco CCNA). Experienced in network monitoring & filtering tools such as Nagios, Splunk, Snort, NeDi, PaloAlto, EndianFW, Cisco Prime"
+
+- name: Windows Administration
+  icon: "/images/sections/skills/windows.png"
+  summary: "Experienced in mid-sized (hundreds of clients) Windows Domains administration. Setting up the Domain in Windows Server up to 2019, defining domain policies, managing DNS and DHCP services."
+
+- name: VMware Virtulization
+  icon: "/images/sections/skills/vmware.png"
+  summary: "Daily working with more than 200 VM's in vSphere with dual datacenters in HA. Experience with ESXi and VMware clients in Windows and Mac environments."
+  url: "https://www.vmware.com"
+
+- name: Docker Containers
+  icon: "/images/sections/skills/docker.svg"
+  summary: "Hobbyist expertise with Docker containers in single host and Swarm mode. My home automation and most of my web services live in containers spread through several Raspberry Pi's around my house."
+  url: "https://www.docker.com"
+
+- name: Coding and scripting
+  icon: "/images/sections/skills/coding.jpeg"
+  summary: "In my career and at home I have written a huge amount of applications ranging from simple scripts to a complex ship automation monitoring software, using so many different languages."
+
+- name: Linux Power User
+  icon: "/images/sections/skills/linux.png"
+  summary: "I am a long time Linux user, dating back to kernel 2.4. I have used every major distro although I prefer Debian and Arch based ones. I can easily administer a workstation or a medium server." 
+  url: "https://www.kernel.org"

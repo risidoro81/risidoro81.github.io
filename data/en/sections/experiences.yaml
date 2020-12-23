@@ -1,0 +1,76 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Costa Crociere S.p.a.
+    url: "https://www.costa.it"
+    location: Around the world
+    # company overview
+    overview: Costa Crociere is a Cruising Company with a strong focus on providing fun and entertainment to its passengers through the use of the latest and greatest technologies
+  positions:
+  - designation: IT Officer
+    start: Oct 2014
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Managing VSAT and GMDSS communications
+    - Administrating ship's Windows domain, Cisco infrastructures and vSphere server farm
+    - Providing IT support to all departments aboard
+    - Scripting and coding for pleasure. One of my Android apps has been deployed to all the Company vessels
+
+- company:
+    name: Augusta Due S.r.l.
+    url: "https://www.augustadue.it"
+    location: Rome
+    overview: Augusta Due is the largest Oil Tanker Shipping Company operating in Italy and Mediterranean Sea
+  positions:
+  - designation: Electronic Superintendent
+    start: January 2012
+    end: July 2014
+    responsibilities:
+    - Manage the commissioning of cargo and engine automation in newbuilding
+    - Service management for navigation and cargo equipment
+    - Technical assistance on board and in shipyard
+  - designation: IT Manager
+    start: June 2009
+    end: December 2011
+    responsibilities:
+    - Software programming. I developed a complex application for real time monitoring of vessels position, including navigational and engine automation data collected from multiple Makers' systems and equipments
+    - Administration of headquarters and vessels Windows domains
+    - Network administration
+    - Leading a team of 4
+
+- company:
+    name: Opera Software A.S.A.
+    url: "https://www.opera.com"
+    location: From home
+    overview: Opera Software is the Company behind the great Opera Browser. I was an heavy user at the time. Now I prefer Vivaldi
+  positions:
+  - designation: Software Testing and Localization
+    start: January 2003
+    end: November 2017
+    responsibilities:
+    - Testing the browser new features in every supported platform before official release
+    - Italian Localization. Translation of the browser interface, documentation and parts of the Opera Community website
+    
+- company:
+    name: Me
+    url: "https://irusso.eu"
+    location: Everywhere
+    overview: The computer (and electronics in general) geek.
+  positions:
+  - designation: Technology counsellor and IT guru.
+    start: June 1989
+    # end: 
+    responsibilities:
+    - Providing free assistance to parents, friends, high school, university lab, colleagues, etc.

@@ -1,0 +1,67 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: IT & Communication Officer
+# your company information
+company:
+  name: Costa Crociere S.p.a.
+  url: "https://www.costa.it"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate electronic engineer with 10 years of working experience in IT and Electronic automation field. I also enjoy writing some code from time to time to ease my work. Some of my scripts and Android apps have been deployed in all the fleet. I also like playing with domotic, hacking every gadget I own and playing with my kids.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "isidoro@irusso.eu"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/risidoro81"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/10844987/risidoro"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/risidoro"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/risidoro"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Leadership
+  percentage: 80
+  color: blue
+- name: Team Work
+  percentage: 80
+  color: yellow
+- name: Hard Working
+  percentage: 90
+  color: pink
+- name: Problem Solving
+  percentage: 90
+  color: green
+- name: Fast Learner
+  percentage: 90
+  color: sky blue
+- name: Nerd
+  percentage: 100
+  color: orange
