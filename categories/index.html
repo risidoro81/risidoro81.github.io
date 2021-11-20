@@ -6,14 +6,19 @@
 <meta http-equiv=x-ua-compatible content="ie=edge">
 <link rel=stylesheet href=/css/bootstrap.min.css>
 <link rel=stylesheet href=/css/layouts/main.css>
-<link rel=stylesheet href=/css/style.css>
 <link rel=stylesheet href=/css/navigators/navbar.css>
+<link rel=stylesheet href=/css/plyr.css>
+<link rel=stylesheet href=/css/flag-icon.min.css>
 <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel=stylesheet>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
 <link rel=icon type=image/png href=/images/site/logo_transp_hu57d795d2f6559d99309ac3ee470ceafd_2066_42x0_resize_box_3.png>
-<link rel=stylesheet href=/css/style.css>
+<meta property="og:title" content="Categories">
+<meta property="og:description" content>
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://risidoro81.github.io/categories/">
 <link rel=stylesheet href=/css/layouts/list.css>
 <link rel=stylesheet href=/css/navigators/sidebar.css>
+<link rel=stylesheet href=/css/style.css>
 </head>
 <body data-spy=scroll data-target=#TableOfContents data-offset=80>
 <div class="container-fluid bg-dimmed wrapper">
@@ -23,7 +28,8 @@
 <span class=navbar-toggler-icon></span>
 </button>
 <a class=navbar-brand href=/>
-<img src=/images/site/logo_transp_hu57d795d2f6559d99309ac3ee470ceafd_2066_42x0_resize_box_3.png>Isidoro's CV</a>
+<img src=/images/site/logo_transp_hu57d795d2f6559d99309ac3ee470ceafd_2066_42x0_resize_box_3.png alt=Logo>
+Isidoro's CV</a>
 <button class="navbar-toggler navbar-light" id=toc-toggler type=button onclick=toggleTOC()>
 <span class=navbar-toggler-icon></span>
 </button>
@@ -31,12 +37,12 @@
 <ul class="navbar-nav ml-auto">
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" href=# id=languageSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>
-<img class=flag src=https://www.countryflags.io/gb/flat/16.png>
+<span class="flag-icon flag-icon-gb"></span>
 English
 </a>
 <div class=dropdown-menu aria-labelledby=languageSelector>
 <a class="dropdown-item nav-link languages-item" href=/it/categories>
-<img class=flag src=https://www.countryflags.io/it/flat/24.png>
+<span class="flag-icon flag-icon-it"></span>
 Italiano
 </a>
 </div>
@@ -44,17 +50,19 @@ Italiano
 </ul>
 </div>
 </div>
-<img src=/images/site/logo_transp_hu57d795d2f6559d99309ac3ee470ceafd_2066_42x0_resize_box_3.png class=d-none id=main-logo>
-<img src=/images/site/logo_transp_hu57d795d2f6559d99309ac3ee470ceafd_2066_42x0_resize_box_3.png class=d-none id=inverted-logo>
+<img src=/images/site/logo_transp_hu57d795d2f6559d99309ac3ee470ceafd_2066_42x0_resize_box_3.png class=d-none id=main-logo alt=Logo>
+<img src=/images/site/logo_transp_hu57d795d2f6559d99309ac3ee470ceafd_2066_42x0_resize_box_3.png class=d-none id=inverted-logo alt="Inverted Logo">
 </nav>
 <section class=sidebar-section id=sidebar-section>
 <div class=sidebar-holder>
 <div class=sidebar id=sidebar>
-<input type=text placeholder=Search data-search id=search-box>
+<form class=mx-auto method=get action=/search>
+<input type=text name=keyword placeholder=Search data-search id=search-box>
+</form>
 <div class=sidebar-tree>
 <ul class=tree id=tree>
-<li id=list-heading><a href=/categories data-filter=all></a></li>
-<div class=subtree>
+<li id=list-heading><a href=/categories data-filter=all>Categories</a></li>
+<div class="subtree taxonomy-terms">
 </div>
 </ul>
 </div>
@@ -77,16 +85,16 @@ Italiano
 <h5>Navigation</h5>
 <ul>
 <li class=nav-item>
-<a class=smooth-scroll href=#about>About</a>
+<a class=smooth-scroll href=https://risidoro81.github.io/#about>About</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#skills>Skills</a>
+<a class=smooth-scroll href=https://risidoro81.github.io/#skills>Skills</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#experiences>Experiences</a>
+<a class=smooth-scroll href=https://risidoro81.github.io/#experiences>Experiences</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#education>Education</a>
+<a class=smooth-scroll href=https://risidoro81.github.io/#education>Education</a>
 </li>
 </ul>
 </div>
@@ -103,25 +111,26 @@ Italiano
 <div class=container>
 <div class="row text-left">
 <div class=col-md-4>
-<a id=theme href=https://github.com/hossainemruz/toha target=#>
-<img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png>
+<a id=theme href=https://github.com/hossainemruz/toha target=_blank rel=noopener>
+<img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png alt="Toha Theme Logo">
 Toha
 </a>
 </div>
 <div class="col-md-4 text-center">Isidoro Russo © 2020 Copyright.</div>
 <div class="col-md-4 text-right">
-<a id=hugo href=https://gohugo.io/>Powered by
+<a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
 <img src=/images/hugo-logo.svg alt="Hugo Logo" height=18>
 </a>
 </div>
 </div>
 </div>
 </footer>
-<script src=/js/jquery-3.4.1.min.js></script>
-<script src=/js/popper.min.js></script>
-<script src=/js/bootstrap.min.js></script>
-<script src=/js/navbar.js></script>
-<script src=/js/main.js></script>
+<script type=text/javascript src=/js/jquery-3.4.1.min.js></script>
+<script type=text/javascript src=/js/popper.min.js></script>
+<script type=text/javascript src=/js/bootstrap.min.js></script>
+<script type=text/javascript src=/js/navbar.js></script>
+<script type=text/javascript src=/js/plyr.js></script>
+<script type=text/javascript src=/js/main.js></script>
 <script src=/js/list.js></script>
 </body>
 </html>
